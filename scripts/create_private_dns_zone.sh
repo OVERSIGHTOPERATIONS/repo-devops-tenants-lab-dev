@@ -1,4 +1,5 @@
 # Description: Create a private DNS zone in Azure
+# Reference: https://learn.microsoft.com/en-us/azure/dns/private-dns-getstarted-cli
 az network vnet create \
   --name myAzureVNet \
   --resource-group MyAzureResourceGroup \
